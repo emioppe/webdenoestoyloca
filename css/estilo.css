@@ -42,7 +42,7 @@
   background: linear-gradient(to bottom right, #faeaf4, #f6cece); }
 
 .menu:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   cursor: pointer; }
 
 /*MAIN*/
@@ -128,17 +128,20 @@ main {
   gap: 60px;
   justify-content: space-around;
   padding: 5rem 3rem 5rem 3rem;
-  /* FOTOS DESCRIPCION DE SECCION CARTERAS*/ }
-  #galeria img:hover {
-    box-shadow: #26394d 0px 20px 30px -10px;
-    transform: scale(1.3);
-    border: solid 1px black; }
+}
+
+  /* FOTOS DESCRIPCION DE SECCION CARTERAS*/ 
+
+
   #galeria .contenedor1 figure {
     position: relative;
     width: 250px;
     height: 250px;
     overflow: hidden;
-    cursor: pointer; }
+    cursor: pointer; 
+    
+  }
+
   #galeria .contenedor1 figure img {
     width: 100%;
     height: 100%;
@@ -165,19 +168,22 @@ main {
 .imagenes {
   width: 250px;
   height: 250px;
-  cursor: pointer; }
+  cursor: pointer; border-radius: 10px;
+  border: solid 1px black;
 
-/*FORMULARIO DE CONTACTOS*/
-#contenedor-formulario {
-  padding: 20px;
-  margin: 30px;
-  background: white;
-  border-radius: 10px;
-  width: 85%;
-  border: 1px solid black; }
+}
 
-#titulo-formulario {
-  color: black; }
+.imagenes:hover{
+  transform: scale(1.1);
+  border: solid 1px black;
+}
+
+.img-modal {
+            width: 350px;
+            height: 350px;
+}
+
+
 
 footer {
   width: 100%;
